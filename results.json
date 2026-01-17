@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://0ad0007f0307e8ad806a210f007c00c5.web-security-academy.net/login",
+    "form": {
+      "index": 0,
+      "action": "https://0ad0007f0307e8ad806a210f007c00c5.web-security-academy.net/login",
+      "method": "post",
+      "inputs": [
+        {
+          "name": "username",
+          "type": "text"
+        },
+        {
+          "name": "password",
+          "type": "password"
+        }
+      ]
+    },
+    "payload": "'",
+    "payload_hash": "eaec06bf3a1b96664dcf224b93180d1f53774de2b1839040fa83e7421f09ee08",
+    "vulnerable": true,
+    "ai_analysis": "ERROR",
+    "param": "username",
+    "detected": {
+      "vulnerable": true,
+      "reason": "content_diff",
+      "score": 0.9867716535433071
+    },
+    "confirmed": true,
+    "confirmed_payload": "'",
+    "severity": {
+      "level": "HIGH",
+      "score": 1.0
+    },
+    "original_payload": "' OR '1'='1"
+  }
+]
